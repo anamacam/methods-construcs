@@ -1,3 +1,4 @@
+import ar.com.ada.oop.instantiation.Bill;
 import ar.com.ada.oop.instantiation.Persona;
 import ar.com.ada.oop.overloading.Arithmetic;
 
@@ -31,5 +32,7 @@ public class App {
         System.out.println(samy.getName() + samy.getLastName());
 
     }*/
+    Bill bill = new Bill(14568, "Juan", 5);
 
 }
+
